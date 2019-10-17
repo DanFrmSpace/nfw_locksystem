@@ -14,7 +14,7 @@ AddEventHandler('nfwlock:removeKit', function()
 	local _source = source
 	local xPlayer = ESX.GetPlayerFromId(_source)
 
-	if not cfg.infinte then
+	if not cfg.infinite then
 		xPlayer.removeInventoryItem('lockpick', 1)
 	end
 end)
